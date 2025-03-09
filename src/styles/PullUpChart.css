@@ -1,0 +1,22 @@
+.charts-container {
+  margin-top: 20px;
+}
+
+.chart-wrapper {
+  background-color: rgba(0, 20, 0, 0.8);
+  border: 1px solid #00FF00;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+  height: 300px;
+}
+
+.chart-wrapper h3 {
+  color: #00FF00;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}

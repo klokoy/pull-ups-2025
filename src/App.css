@@ -1,0 +1,60 @@
+:root {
+  --matrix-green: #00FF00;
+  --matrix-dark: #001400;
+  --matrix-black: #000800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #000;
+  color: var(--matrix-green);
+  overflow-x: hidden;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.app-content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+.app-header p {
+  color: var(--matrix-green);
+  opacity: 0.8;
+  margin: 10px 0 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

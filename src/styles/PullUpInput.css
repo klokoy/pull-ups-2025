@@ -1,0 +1,74 @@
+.pull-up-input {
+  background-color: rgba(0, 20, 0, 0.8);
+  border: 1px solid #00FF00;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+.today-count {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.today-count h3 {
+  color: #00FF00;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.counter-btn {
+  background-color: rgba(0, 40, 0, 0.8);
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.counter-btn:hover {
+  background-color: rgba(0, 60, 0, 0.8);
+}
+
+.count-input {
+  background-color: rgba(0, 20, 0, 0.8);
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 10px;
+  font-family: 'Courier New', monospace;
+}
+
+.add-btn {
+  width: 100%;
+  background-color: rgba(0, 40, 0, 0.8);
+  color: #00FF00;
+  border: 1px solid #00FF00;
+  padding: 12px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add-btn:hover {
+  background-color: rgba(0, 60, 0, 0.8);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
