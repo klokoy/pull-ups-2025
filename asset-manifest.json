@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pull-ups-2025/static/css/main.9aaf2bdb.css",
+    "main.js": "/pull-ups-2025/static/js/main.4aab1c0d.js",
+    "index.html": "/pull-ups-2025/index.html",
+    "main.9aaf2bdb.css.map": "/pull-ups-2025/static/css/main.9aaf2bdb.css.map",
+    "main.4aab1c0d.js.map": "/pull-ups-2025/static/js/main.4aab1c0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aaf2bdb.css",
+    "static/js/main.4aab1c0d.js"
+  ]
+}
