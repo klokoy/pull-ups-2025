@@ -68,6 +68,7 @@ export const initialData: PullUpData[] = [
   { date: "2025-03-05", count: 34 },
   { date: "2025-03-06", count: 22 },
   { date: "2025-03-08", count: 34 },
+  { date: "2025-03-09", count: 15 },
   // All remaining dates don't have counts yet, so not included
 ];
 

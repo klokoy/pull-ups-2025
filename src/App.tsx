@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import MatrixBackground from './components/MatrixBackground';
 import PullUpChart from './components/PullUpChart';
@@ -28,13 +28,13 @@ function App() {
       
       <div className="app-content">
         <header className="app-header">
-          <h1>MATRIX PULL-UPS</h1>
+          <h1>KIMZ PULL-UPS</h1>
           <p>GOAL: 5000 IN {new Date().getFullYear()}</p>
         </header>
         
         <PullUpInput data={pullUpData} onAddPullUps={handleAddPullUps} />
         
-        <PullUpStats stats={stats} />
+        <PullUpStats stats={stats} data={pullUpData} />
         
         <PullUpChart data={pullUpData} />
       </div>
